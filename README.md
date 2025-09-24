@@ -3,22 +3,22 @@ Unsere Diplomarbeit über die Multiuser-Nutzung von VR-Brillen
 
 OK
 
-Dont edit main!!!
+!!!Dont edit main!!! (!!!Never edit main!!!
 
 Work with new branches (z.B.: Branch: Linus, Vali, Arthur) Danach sprechen wir uns ab und fügen alle 3 branchen gleichzeitig in den main branch
 
-Die Excel bzw. Word-Dateien werden nicht (noch nicht) ins main hinzugefügt!
-Gleichzeitiges bearbeiten vom Word geht nicht bitte absprechen
-Ihr konnt nun die Stundenliste unter word-excel-Datein finden
-Dort unter den selben Namen wieder hochladen ansonsten wird die alte Datei nicht überschrieben (über Web-Github)
+Die Excel bzw. Word-Dateien werden nicht (noch nicht) ins main hinzugefügt! 
+Gleichzeitiges bearbeiten vom Word geht nicht bitte absprechen 
+Ihr konnt nun die Stundenliste unter word-excel-Datein finden 
+Dort unter den selben Namen wieder hochladen ansonsten wird die alte Datei nicht überschrieben (über Web-Github) 
 
 1. Über die GitHub-Webseite
 
-    Gehe zu deinem Repository auf GitHub.
-    Wähle den gewünschten Branch aus.
-    Klicke auf „Add file“ > „Upload files“.
-    Lade die neue Version der Datei hoch (sie ersetzt die alte).
-    Schreibe eine Commit-Nachricht und klicke auf „Commit changes“.
+    Gehe zu deinem Repository auf GitHub. 
+    Wähle den gewünschten Branch aus. 
+    Klicke auf „Add file“ > „Upload files“. 
+    Lade die neue Version der Datei hoch (sie ersetzt die alte). 
+    Schreibe eine Commit-Nachricht und klicke auf „Commit changes“. 
 
 Wenn ihr etwas ändern wollt über den PC geht das anders (unter bash):
 
