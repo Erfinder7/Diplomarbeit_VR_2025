@@ -44,4 +44,4 @@ bash
 
                     5.  git push
 
-Dann sollte es auch funktioniernen
+Dann sollte es auch funktionieren
