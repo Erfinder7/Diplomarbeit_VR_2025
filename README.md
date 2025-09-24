@@ -23,24 +23,24 @@ Schritt-für-Schritt:
                     1.  cd Pfad/zum/Repo
 
 Stelle sicher, dass du im richtigen Branch bist:
-bash
+    bash
 
                     2.  git status
 
 (Falls du in einen anderen Branch musst: git checkout branchname)
 Füge die geänderte Datei zum Commit hinzu:
-bash
+    bash
 
                     3.  git add dateiname.docx
 
 (Ersetze dateiname.docx durch den tatsächlichen Dateinamen.)
 Committe deine Änderung:
-bash
+    bash
 
                     4.  git commit -m "Aktualisierte Word/Excel-Datei hochgeladen"
 
 Push die Änderung zu GitHub:
-bash
+    bash
 
                     5.  git push
 
