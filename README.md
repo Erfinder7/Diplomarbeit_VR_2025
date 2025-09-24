@@ -11,9 +11,18 @@ Die Excel bzw. Word-Dateien werden nicht (noch nicht) ins main hinzugefügt!
 Gleichzeitiges bearbeiten vom Word geht nicht bitte absprechen
 Ihr konnt nun die Stundenliste unter word-excel-Datein finden
 Dort unter den selben Namen wieder hochladen ansonsten wird die alte Datei nicht überschrieben (über Web-Github)
+
+1. Über die GitHub-Webseite
+
+    Gehe zu deinem Repository auf GitHub.
+    Wähle den gewünschten Branch aus.
+    Klicke auf „Add file“ > „Upload files“.
+    Lade die neue Version der Datei hoch (sie ersetzt die alte).
+    Schreibe eine Commit-Nachricht und klicke auf „Commit changes“.
+
 Wenn ihr etwas ändern wollt über den PC geht das anders (unter bash):
 
-1. Mit Git auf deinem Computer
+2. Mit Git auf deinem Computer
 
 Schritt-für-Schritt:
 
