@@ -11,7 +11,7 @@ using System.Net.Sockets;
 using System.Net;
 
 #if UNITY_EDITOR && HAS_MPPM
-using Unity.Multiplayer.Playmode;
+
 #endif
 
 namespace XRMultiplayer
@@ -228,7 +228,7 @@ namespace XRMultiplayer
 
             bool skipCloudCheck = false;
 # if HAS_MPPM
-            if (!CurrentPlayer.IsMainEditor)
+            if (!Unity.Multiplayer.PlayMode.CurrentPlayer.IsMainEditor)
             {
                 skipCloudCheck = true;
             }

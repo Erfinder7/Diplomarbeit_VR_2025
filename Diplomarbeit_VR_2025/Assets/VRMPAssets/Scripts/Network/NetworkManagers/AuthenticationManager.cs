@@ -10,7 +10,7 @@ using UnityEngine.XR.Interaction.Toolkit.UI;
 #if UNITY_EDITOR
 
 #if HAS_MPPM
-using Unity.Multiplayer.Playmode;
+
 #endif
 
 #if HAS_PARRELSYNC
@@ -151,9 +151,9 @@ namespace XRMultiplayer
             string mppmString = "";
 
             // Check to make sure it's an MPPM Virtual Player.
-            if(CurrentPlayer.ReadOnlyTags().Length > 0)
+            if(Unity.Multiplayer.PlayMode.CurrentPlayer.ReadOnlyTags().Length > 0)
             {
-                mppmString += CurrentPlayer.ReadOnlyTags()[0];
+                mppmString += Unity.Multiplayer.PlayMode.CurrentPlayer.ReadOnlyTags()[0];
 
                 // Force input module to disable mouse and touch input to suppress MPPM startup errors.
                 inputModule.enableMouseInput = false;
@@ -167,7 +167,7 @@ namespace XRMultiplayer
         void OnApplicationFocus(bool focus)
         {
             // Check to make sure it's an MPPM Virtual Player.
-            if (focus && CurrentPlayer.ReadOnlyTags().Length > 0)
+            if (focus && Unity.Multiplayer.PlayMode.CurrentPlayer.ReadOnlyTags().Length > 0)
             {
                 inputModule.enableMouseInput = true;
                 inputModule.enableTouchInput = true;

@@ -1,4 +1,3 @@
 repository "Diplomarbeit_VR_2025/Diplomarbeit_VR_2025@9071335507370@cloud"
   path "/"
-    br "/main"
-    co "/main"
+    smartbranch "/main"
