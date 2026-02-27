@@ -20,6 +20,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Classroom_VR.unity
     guid: 14d07186fbb594849b1d90c3073f8bf2
+  - enabled: 1
+    path: Assets/Arthur/Scenes/Klassenraum.unity
+    guid: d1a90af8968bde74196947a3a7d2438b
+  - enabled: 1
+    path: Assets/Linus/Classroom1.unity
+    guid: bc040f74b96f83648bf878da7203a124
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 158ca34b37736694f8fe0c8d55ddd5dd,
       type: 2}
