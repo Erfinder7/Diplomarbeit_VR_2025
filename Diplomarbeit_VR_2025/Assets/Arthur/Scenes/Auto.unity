@@ -1474,7 +1474,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 619288903}
-  - component: {fileID: 619288902}
+  - component: {fileID: 619288904}
   m_Layer: 0
   m_Name: SzeneLoader
   m_TagString: Untagged
@@ -1482,18 +1482,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &619288902
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 619288901}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5852b2e66a280574cb788975277ab824, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SceneSwitch
 --- !u!4 &619288903
 Transform:
   m_ObjectHideFlags: 0
@@ -1509,6 +1497,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &619288904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 619288901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f968b47742ba63944b60f98bf5627cd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SceneLoader
 --- !u!1 &631498028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2005,7 +2005,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &760504970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2793,7 +2793,7 @@ PrefabInstance:
     - target: {fileID: 5289182684458692542, guid: e5db301629853dd4a99835fa70099d79,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5289182684458692542, guid: e5db301629853dd4a99835fa70099d79,
         type: 3}
@@ -2809,7 +2809,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 619288902}
+      objectReference: {fileID: 619288904}
     - target: {fileID: 5289182684458692542, guid: e5db301629853dd4a99835fa70099d79,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
@@ -2838,7 +2838,7 @@ PrefabInstance:
     - target: {fileID: 5289182684458692542, guid: e5db301629853dd4a99835fa70099d79,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LoadSceneByName
+      value: LoadSceneByIndex
       objectReference: {fileID: 0}
     - target: {fileID: 5289182684458692542, guid: e5db301629853dd4a99835fa70099d79,
         type: 3}
@@ -3085,8 +3085,6 @@ MonoBehaviour:
   m_StartingHoverFilters: []
   m_StartingSelectFilters: []
   m_StartingInteractionStrengthFilters: []
-  m_AutoFindParentInteractableInHierarchy: 0
-  m_ParentInteractableObject: {fileID: 0}
 --- !u!1001 &865458290
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3183,12 +3181,12 @@ PrefabInstance:
     - target: {fileID: 3162837999534115201, guid: 77ac6b10722bcca4a8baf70e44d89e78,
         type: 3}
       propertyPath: onlinePosition.z
-      value: -1.465
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3162837999534115201, guid: 77ac6b10722bcca4a8baf70e44d89e78,
         type: 3}
       propertyPath: offlinePosition.z
-      value: -1.465
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4155537854260005700, guid: 77ac6b10722bcca4a8baf70e44d89e78,
         type: 3}
@@ -6114,7 +6112,7 @@ Transform:
   m_GameObject: {fileID: 1811595416}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.7071072, z: -0, w: 0.7071065}
-  m_LocalPosition: {x: 10.132902, y: 1, z: -9.91018}
+  m_LocalPosition: {x: 10.13, y: 1, z: -17.074}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
