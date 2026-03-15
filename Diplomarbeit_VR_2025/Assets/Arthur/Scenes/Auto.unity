@@ -377,7 +377,7 @@ Animator:
   m_GameObject: {fileID: 152046525}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 20234231787ed6646a65e7f5dbe72717, type: 2}
+  m_Controller: {fileID: 9100000, guid: e8f765bb8c7860d4aab59a663eda4396, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -398,9 +398,9 @@ Animation:
   m_GameObject: {fileID: 152046525}
   m_Enabled: 1
   serializedVersion: 4
-  m_Animation: {fileID: 0}
+  m_Animation: {fileID: 7400000, guid: 2d4fa24197827d447a7ae2da6d742c8d, type: 2}
   m_Animations:
-  - {fileID: 0}
+  - {fileID: 7400000, guid: 2d4fa24197827d447a7ae2da6d742c8d, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 1
@@ -3272,8 +3272,6 @@ MonoBehaviour:
   m_StartingHoverFilters: []
   m_StartingSelectFilters: []
   m_StartingInteractionStrengthFilters: []
-  m_AutoFindParentInteractableInHierarchy: 0
-  m_ParentInteractableObject: {fileID: 0}
 --- !u!1001 &865458290
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5847,10 +5845,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c33cccb909a5ff4c8e5ba8ed6a587bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::objSpawner
-  obj: {fileID: 152046525}
-  spawnDest1: {fileID: 1811595417}
-  spawningbool: 1
-  spawnTime: 2
 --- !u!4 &1724746009
 Transform:
   m_ObjectHideFlags: 0

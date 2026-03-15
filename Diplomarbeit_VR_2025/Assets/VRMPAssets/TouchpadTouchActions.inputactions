@@ -1,5 +1,4 @@
 {
-    "version": 1,
     "name": "TouchpadTouchActions",
     "maps": [
         {
@@ -10,7 +9,7 @@
                     "name": "ThumbTouched",
                     "type": "Button",
                     "id": "de376d65-c48f-4ed9-b5df-5775be0b7786",
-                    "expectedControlType": "",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -91,7 +90,7 @@
                     "name": "ThumbTouched",
                     "type": "Button",
                     "id": "fa484675-2d36-4a13-8a7a-d9dd699cf223",
-                    "expectedControlType": "",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
