@@ -1,5 +1,32 @@
 {
   "dependencies": {
+    "com.meta.xr.sdk.core": {
+      "version": "85.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.meta.xr.sdk.interaction": {
+      "version": "85.0.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.textmeshpro": "3.0.6"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.meta.xr.sdk.interaction.ovr": {
+      "version": "85.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.meta.xr.sdk.core": "85.0.0",
+        "com.meta.xr.sdk.interaction": "85.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.2d.common": {
       "version": "11.0.1",
       "depth": 1,
@@ -479,6 +506,14 @@
         "com.unity.settings-manager": "1.0.1"
       },
       "url": "https://packages.unity.com"
+    },
+    "com.unity.textmeshpro": {
+      "version": "5.0.0",
+      "depth": 2,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.ugui": "2.0.0"
+      }
     },
     "com.unity.transport": {
       "version": "2.5.3",

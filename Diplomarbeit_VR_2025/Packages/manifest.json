@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "com.meta.xr.sdk.core": "85.0.0",
+    "com.meta.xr.sdk.interaction.ovr": "85.0.0",
     "com.unity.2d.enhancers": "1.0.0",
     "com.unity.ai.assistant": "1.7.0-pre.1",
     "com.unity.ai.generators": "1.7.0-pre.1",
